@@ -28,9 +28,9 @@
             <?php if (isset($_GET['message'])): ?>
                 <div class="alert alert-success">
                     <?php
-                    if ($_GET['message'] == 'created') echo '✓ Categoría creada exitosamente';
-                    if ($_GET['message'] == 'updated') echo '✓ Categoría actualizada exitosamente';
-                    if ($_GET['message'] == 'deleted') echo '✓ Categoría eliminada exitosamente';
+                    if ($_GET['message'] == 'created') echo 'Categoría creada exitosamente';
+                    if ($_GET['message'] == 'updated') echo 'Categoría actualizada exitosamente';
+                    if ($_GET['message'] == 'deleted') echo 'Categoría eliminada exitosamente';
                     ?>
                 </div>
             <?php endif; ?>
@@ -39,9 +39,9 @@
                 <div class="alert alert-error">
                     <?php
                     if ($_GET['error'] == 'has_articles') {
-                        echo '✗ No se puede eliminar la categoría porque tiene artículos asociados';
+                        echo 'No se puede eliminar la categoría porque tiene artículos asociados';
                     } else {
-                        echo '✗ Error al procesar la operación';
+                        echo 'Error al procesar la operación';
                     }
                     ?>
                 </div>
