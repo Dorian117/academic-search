@@ -4,7 +4,7 @@
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'academic_search');
 define('DB_USER', 'root');
-define('DB_PASS', ''); //Campo para contraseña de la base de datos, si es necesario
+define('DB_PASS', ''); //Contraseña 
 
 // Crear conexión a la base de datos
 function getConnection() {
